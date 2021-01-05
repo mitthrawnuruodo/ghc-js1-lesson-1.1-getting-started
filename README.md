@@ -26,3 +26,5 @@ Add a comment over the code snippet describing what it does.
 
 ### 3b
 Add another list element to the above: JavaScript
+
+Tip: Note the `+=` in `ul.innerHTML += "<li>CSS</li>";`
