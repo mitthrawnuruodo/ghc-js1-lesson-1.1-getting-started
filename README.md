@@ -14,7 +14,7 @@ const p = document.getElementById("blankParagraph");
 p.textContent = "Hello from ...?";
 ```
 Save and refresh browser. 
-Add a comment over the code snippet describing what it does.
+Add a comment over the code snippet describing what it does, and change the text and add your own (nick-) name.
 
 ## Excersise 3
 In js/script.js add the following snippet: 
@@ -46,6 +46,12 @@ Add a comment over the code snippet describing what it does.
 ### Exersise 4b
 
 Make the all the list items from Excersize 3 blue and italic.
+
+### Exersise 4c
+
+Make the background colour of the whole page beige.
+
+> Tip: use `document.body` and not the `p` or `ul` elements.
 
 ## Exersise 5
 
@@ -80,7 +86,7 @@ Change the snippet from above to:
 ```js
 window.alert("The answer is: " + 23 + 19);
 ```
-What happens?
+What happens? Add to comment.
 
 ### Exersise 6c
 
@@ -88,7 +94,7 @@ Add parenthesis, like so:
 ```js
 window.alert("The answer is: " + (23 + 19));
 ```
-Now, what happens?
+Now, what happens? Add to comment.
 
 Comment out the alert (keep it in the code, but add `// ` at the beginning of its line).
 
@@ -99,6 +105,7 @@ In js/script.js add the following snippet:
 ```js
 document.body.innerHTML = "";
 ```
-What happens? 
+Save and refresh browser.
+Add a comment over the code snippet describing what it does.
 
 Comment out that last line, again (keep it in the code, but add `// ` at the beginning of its line).
