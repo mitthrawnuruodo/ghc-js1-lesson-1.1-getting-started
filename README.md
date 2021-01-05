@@ -67,6 +67,30 @@ What happens when you push that button?
 
 ## Exersise 6
 
+In js/script.js add the following snippet: 
+```js
+window.alert(23 + 19);
+```
+Save and refresh browser.
+Add a comment over the code snippet describing what it does.
+
+### Exersise 6b
+
+Change the snippet from above to:
+```js
+window.alert("The answer is: " + 23 + 19);
+```
+What happens?
+
+### Exersise 6c
+
+Add parenthesis, like so:
+```js
+window.alert("The answer is: " + (23 + 19));
+```
+Now, what happens?
+
+Comment out the alert (keep it in the code, but add `// ` at the beginning of its line).
 
 ## Exersise 7
 
@@ -77,4 +101,4 @@ document.body.innerHTML = "";
 ```
 What happens? 
 
-Comment out that line, again (keep it in the code, but add `// ` at the beginning of its line).
+Comment out that last line, again (keep it in the code, but add `// ` at the beginning of its line).
